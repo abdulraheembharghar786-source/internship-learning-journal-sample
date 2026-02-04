@@ -1,6 +1,6 @@
 # Internship Learning Journal  
-**Name:** Your Name  
-**USN:** YOUR USN
+**Name:** ABDUL RAHEEM BHARGHAR 
+**USN:** 2BL22CI002
 **GitHub Username:** Your GitHub Username  
 **Department:** (CSE-AIML / CSE / ISE)  
 **Internship Start Date:** 03-02-2026
