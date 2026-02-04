@@ -1,7 +1,7 @@
 # Internship Learning Journal  
 **Name:** ABDUL RAHEEM BHARGHAR 
 **USN:** 2BL22CI002
-**GitHub Username:** abdulraheembharghar786  
+**GitHub Username:** abdulraheembharghar786-source  
 **Department:** (CSE-AIML)  
 **Internship Start Date:** 03-02-2026
 
