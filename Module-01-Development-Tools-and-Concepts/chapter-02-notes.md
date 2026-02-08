@@ -1,5 +1,5 @@
-Need of WSL
-Purpose of WSL
+#Need of WSL
+#Purpose of WSL
 Modern Data Science and development workflows rely on Linux tools
 Many CLI tools work best on Linux environments
 Linux Tools
@@ -9,7 +9,8 @@ WSL Benefits
 Allows running Ubuntu inside Windows
 Lightweight and efficient compared to full virtual machines
 Provides near-native Linux performance
-WSL vs VirtualBox
+
+#WSL vs VirtualBox
 VirtualBox:
 GUI-based
 Slower and resource-heavy
