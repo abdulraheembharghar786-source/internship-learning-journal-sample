@@ -1,4 +1,4 @@
-# Week 2 - Session 1 Notes (TDS Sep 2025)
+# Week 2 - Session 1 Notes
 
 ## 📌 Topic: Containerization with Podman
 
@@ -44,9 +44,9 @@ Benefits:
 Isolated Python environment
 
 Avoids dependency conflicts
----
-4. Running Local LLM (Olama) in Containers
 
+##4. Running Local LLM (Olama) in Containers
+---
 Purpose: Experiment with Large Language Models locally.
 
 Steps:
@@ -68,8 +68,8 @@ Offline experimentation
 Prompt testing
 
 Controlled workflows
----
-5. Networking in Containers
+
+## 5. Networking in Containers
 
 Expose ports: -p host_port:container_port
 
@@ -79,7 +79,7 @@ Use Podman pods for shared networking.
 
 Example: Run Jupyter + Olama in same pod for integrated workflows.
 ---
-6. Practical Demonstration
+## 6. Practical Demonstration
 
 Install Podman
 
@@ -93,7 +93,7 @@ Connect via browser/API
 
 Show reproducibility in Data Science projects
 ---
-7. Applications in Data Science
+## 7. Applications in Data Science
 
 Reproducible research environments
 
@@ -108,8 +108,8 @@ Automated analysis
 AI experimentation
 
 Combine Jupyter + LLM for end‑to‑end workflows
----
-8. Best Practices
+
+## 8. Best Practices
 
 Use versioned images for reproducibility.
 
@@ -126,3 +126,4 @@ podman rm <container_id>
 podman rmi <image_id>
 
 --
+
