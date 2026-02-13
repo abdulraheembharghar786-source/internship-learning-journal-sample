@@ -1,8 +1,7 @@
 # Week 1 - Session 3: Tools in Data Science (TDS)
 
-## 📌 Overview
-This session (dated 22 Sept 2025) is part of the IIT–Madras *Tools in Data Science* series.  
-It introduces foundational tools and environments that data scientists use daily, focusing on Linux basics, Windows Subsystem for Linux (WSL), and setup for modern AI/LLM workflows.
+## 📌 Overview 
+It introduces foundational tools and envir onments that data scientists use daily, focusing on Linux basics, Windows Subsystem for Linux (WSL), and setup for modern AI/LLM workflows.
 
 ---
 
