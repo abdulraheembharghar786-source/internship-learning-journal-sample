@@ -1,104 +1,119 @@
-## Week 2 - Session 3 
-## 1. GitHub Connectivity & Branching
-Connecting local machine ↔ GitHub via CLI or GitHub Desktop.
+# TDS – FastAPI Project Workflow 🚀
 
-Branching:
+These notes summarize the session covering **TDS Project Workflow, API development, testing, and deployment using FastAPI**.
 
-Useful for collaboration and feature isolation.
+---
 
-Not strictly required for solo projects.
+# 📌 Session Overview
 
-Branches can be deleted or kept private.
+This session explains how modern development workflows are used in Data Science and Software Engineering, focusing on:
 
-Pulling repositories into CLI/WSL and opening them in VS Code works seamlessly if Git is configured.
+- Building APIs using FastAPI
+- Testing and debugging applications
+- Handling HTTP requests
+- Processing files and data
+- Deployment concepts
 
-## 2. WSL & VS Code Integration
-Git configuration in WSL persists when accessed via VS Code.
+---
 
-Virtual environments:
+# 🧠 Key Learnings
 
-Best practice to avoid global installs.
+## 1. TDS Project Workflow
 
-Windows vs WSL environments differ; recreate via requirements.txt if needed.
+A standard development workflow includes:
 
-VS Code can connect to WSL using the Remote – WSL extension.
+1. Plan the project
+2. Build the application
+3. Test functionality
+4. Debug errors
+5. Deploy application
 
-## 3. SSH Keys
-One SSH setup per machine is sufficient.
+Understanding workflow helps in building scalable and maintainable systems.
 
-Works across all repositories once configured.
+---
 
-## 4. GitHub Codespaces
-Cloud-hosted development environment.
+## 2. FastAPI Fundamentals
 
-Access via:
+FastAPI is a modern Python framework used to build APIs.
 
-Browser UI
+### Key Concepts
 
-VS Code
+- API → Interface for communication between systems
+- Endpoint → URL that performs a task
+- Request → Input sent to server
+- Response → Output returned by server
 
-CLI
+FastAPI advantages:
 
-Offers configurable machines (2–32 cores, 8–128 GB RAM).
+- High performance
+- Easy to learn
+- Automatic documentation
+- Async support
+- Widely used in AI/ML & backend
 
-Free tier: 120 hours/month (GitHub Free), 180 hours/month (GitHub Pro via student pack).
+---
 
-Auto-shutdown after 30 minutes inactivity.
+## 3. Building an API
 
-Repository setup:
+Basic steps:
 
-.devcontainer/ folder
+1. Create API server
+2. Define routes/endpoints
+3. Process input data
+4. Return JSON response
 
-devcontainer.json for configuration
+Example:
 
-Optional Dockerfile for dependencies
+```python
+@app.get("/")
+def home():
+    return {"message": "API Running"}
+4. Request Handling
+Types of HTTP requests:
 
-Supports multiple configurations for different teams (e.g., dev vs testing).
+GET → Retrieve data
 
-## 5. Repository Size Limits
-GitHub account storage: ~15 GB total.
+POST → Send data
 
-File size limit: 100 MB (use Git LFS for larger files).
+PUT → Update data
 
-Recommended repo size: ≤1 GB for performance.
+DELETE → Remove data
 
-## 6. Hugging Face Spaces
-Platform for deploying ML models and datasets.
+Understanding request-response cycle is essential for backend development.
 
-Supports cloning repos with Git LFS for large files.
+## 5. File & Data Handling
+Applications often need to:
 
-Models often include large tensor files (GBs in size).
+Read files
 
-Free accounts available; similar to GitHub but focused on ML.
+Process input data
 
-💻 GitHub Code Example
-You can save these notes in a repo as SESSION3_NOTES.md:
+Send processed output
 
-markdown
+Handle structured data (JSON)
 
-## GitHub Connectivity
-- CLI & Desktop connections
-- Branching for collaboration
-- SSH setup once per machine
+This is core for Data Science pipelines.
 
-## WSL & VS Code
-- Git config persists in WSL
-- Use virtual environments
-- Remote – WSL extension for VS Code
+## 6. Testing & Debugging
+Before deployment:
 
-## GitHub Codespaces
-- Cloud dev environment
-- Access via UI, VS Code, CLI
-- Configurable cores/RAM
-- Free tier: 120–180 hrs/month
-- `.devcontainer/` folder with JSON + Dockerfile
+Test endpoints
 
-## Repository Limits
-- 15 GB total storage
-- 100 MB per file (use Git LFS)
-- Recommended repo size ≤1 GB
+Check errors
 
-## Hugging Face Spaces
-- Deploy ML models/datasets
-- Git LFS required for large files
-- Free accounts available
+Validate responses
+
+Ensure correct data handling
+
+Testing improves reliability and stability.
+
+## 7. Deployment Concept
+After development:
+
+Run server on host
+
+Expose API endpoint
+
+Make application accessible
+
+Deployment makes application usable in real-world.
