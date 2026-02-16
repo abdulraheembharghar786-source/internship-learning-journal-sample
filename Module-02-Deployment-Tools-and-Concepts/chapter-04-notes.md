@@ -62,12 +62,6 @@ Basic steps:
 3. Process input data
 4. Return JSON response
 
-Example:
-
-```python
-@app.get("/")
-def home():
-    return {"message": "API Running"}
 ---
 ## 4. Request Handling
 Types of HTTP requests:
@@ -81,6 +75,7 @@ PUT → Update data
 DELETE → Remove data
 
 Understanding request-response cycle is essential for backend development.
+
 ---
 ## 5. File & Data Handling
 Applications often need to:
@@ -94,6 +89,7 @@ Send processed output
 Handle structured data (JSON)
 
 This is core for Data Science pipelines.
+
 ---
 ## 6. Testing & Debugging
 Before deployment:
@@ -107,6 +103,7 @@ Validate responses
 Ensure correct data handling
 
 Testing improves reliability and stability.
+
 ---
 ## 7. Deployment Concept
 After development:
